@@ -34,6 +34,9 @@ GET /api/cars
 
 ### Export CSV
 
+GET /api/cars/export
+
+
 ## Dataset Import
 
 The dataset was imported into Firestore using a custom Node.js script.
