@@ -31,6 +31,36 @@ GET /api/cars
 
 ---
 
+
+### Export CSV
+
+## Dataset Import
+
+The dataset was imported into Firestore using a custom Node.js script.
+
+### File location
+
+src/scripts/importData.js
+
+### Dataset
+
+Source:  
+https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset
+
+The dataset should be saved as:
+src/scripts/cars.csv
+
+---
+
+### Run import script
+
+```bash
+node src/scripts/importData.js
+
+## Note
+Ensure Firebase credentials are correctly set in .env before running the script.
+
+
 ## Tech Stack
 
 - Node.js
